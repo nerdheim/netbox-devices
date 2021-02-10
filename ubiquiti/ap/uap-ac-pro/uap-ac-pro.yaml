@@ -1,0 +1,18 @@
+manufacturer: Ubiquiti
+model: UAP-AC-Pro
+slug: uap-ac-pro
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**PoE**  \r\n- af/at  \r\n- 9W  \r\n**Secondary Port**  \r\nonly Data Passthrough"
+interfaces:
+- name: Main
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Secondary
+  type: 1000base-t
+  mgmt_only: false

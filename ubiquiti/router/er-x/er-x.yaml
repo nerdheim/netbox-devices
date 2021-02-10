@@ -1,0 +1,33 @@
+manufacturer: Ubiquiti
+model: EdgeRouter X
+slug: er-x
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: "**PoE**  \r\n- Port 1 - PoE IN (24V)  \r\n- Port 8 - PoE OUT / Passthrough\
+  \ (24V)"
+power-ports:
+- name: 12VDC
+  type: iec-60320-c6
+  maximum_draw: 5
+  allocated_draw: 5
+interfaces:
+- name: br0
+  type: virtual
+  mgmt_only: false
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+- name: eth2
+  type: 1000base-t
+  mgmt_only: false
+- name: eth3
+  type: 1000base-t
+  mgmt_only: false
+- name: eth4
+  type: 1000base-t
+  mgmt_only: false
