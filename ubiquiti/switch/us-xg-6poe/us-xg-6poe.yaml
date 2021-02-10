@@ -1,0 +1,45 @@
+manufacturer: Ubiquiti
+model: US-XG-6POE
+slug: us-xg-6poe
+part_number: ''
+u_height: 1
+is_full_depth: true
+subdevice_role: ''
+comments: "**PoE**  \r\n- PoE (802.3af)  \r\n- PoE+ (802.3at)  \r\n- PoE++ (802.3bt)\
+  \  \r\n- PoE Ports:  \r\n- 1-4"
+console-ports:
+- name: RJ-45
+  type: rj-45
+- name: USB
+  type: usb-c
+power-ports:
+- name: 54VDC
+  type: iec-60320-c6
+  maximum_draw: 210
+  allocated_draw: 40
+- name: +54VDC IN -
+  type: ''
+  maximum_draw: 210
+  allocated_draw: 40
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Port 1
+  type: 10gbase-t
+  mgmt_only: false
+- name: Port 2
+  type: 10gbase-t
+  mgmt_only: false
+- name: Port 3
+  type: 10gbase-t
+  mgmt_only: false
+- name: Port 4
+  type: 10gbase-t
+  mgmt_only: false
+- name: Port 5 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 6 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
