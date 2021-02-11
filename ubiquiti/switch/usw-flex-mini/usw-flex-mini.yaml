@@ -1,0 +1,27 @@
+manufacturer: Ubiquiti
+model: USW-Flex-Mini
+slug: usw-flex-mini
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: Power via PoE af
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Port 1
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 2
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 3
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 4
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 5
+  type: 1000base-t
+  mgmt_only: false

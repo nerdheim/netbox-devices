@@ -1,0 +1,29 @@
+manufacturer: Ubiquiti
+model: USW-Flex
+slug: usw-flex
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Outdoor**  \r\nUSW-Flex-Utility  \r\n- Outdoor enclosure with PSU  \r\
+  \n- Power via PoE (min. af - 5W)  \r\n**PoE Budget**  \r\n- af -> 8W  \r\n- at ->\
+  \ 20W  \r\n- bt -> 46W"
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Port 1
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 2
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 3
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 4
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 5
+  type: 1000base-t
+  mgmt_only: false

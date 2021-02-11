@@ -1,0 +1,41 @@
+manufacturer: Ubiquiti
+model: USW-Aggregation
+slug: usw-aggregation
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: Gen2
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 36
+  allocated_draw: 36
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Port 1 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 2 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 3 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 4 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 5 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 6 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 7 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 8 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
