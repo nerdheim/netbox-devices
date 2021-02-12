@@ -1,0 +1,48 @@
+manufacturer: Ubiquiti
+model: EdgeSwitch 10X
+slug: es-10x
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: "**PoE**  \r\n- Port 1 - PoE IN (24V)  \r\n- Port 8 - PoE OUT / Passthrough\
+  \ (24V)"
+power-ports:
+- name: PSU
+  type: iec-60320-c6
+  maximum_draw: 24
+  allocated_draw: 8
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Port 1
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 2
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 3
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 4
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 5
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 6
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 7
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 8
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 9 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: Port 10 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
