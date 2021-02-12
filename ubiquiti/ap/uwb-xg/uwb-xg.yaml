@@ -1,0 +1,22 @@
+manufacturer: Ubiquiti
+model: UWB-XG
+slug: uwb-xg
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Outdoor**  \r\n**Radio**  \r\n- a/n  \r\n- ac-wave2 (Wifi 5)  \r\n**Antenna**\
+  \  \r\n- Dual-Mode Antenna Array  \r\n*5GHz*  \r\n- 3x 4x4 MIMO  \r\n\"Small Cell\"\
+  \  \r\n- 15 dBi  \r\n- max. 25 dBm  \r\n\"Large Cell\"  \r\n- 10 dBi  \r\n- max.\
+  \ 25 dBm  \r\n**PoE**  \r\n- bt  \r\n- 31W  \r\n**Secondary Port**  \r\nonly Data\
+  \ Passthrough  \r\n**Size**  \r\nhight 257,5mm  \r\nwide 471,1mm  \r\ndepth 94,3mm"
+interfaces:
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true

@@ -1,0 +1,18 @@
+manufacturer: Ubiquiti
+model: UniFi Building-to-Building Bridge
+slug: ubb-us
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**60GHz Brige with 5GHz Fallback**  \r\n**Special**  \r\nairTime & airView\
+  \  \r\n*2,4GHz*  \r\n- 10 dBi  \r\n- 25 dBm  \r\n*60GHz*  \r\n- 17,2 dBi  \r\n-\
+  \ 32-36,5 dBm  \r\n**PoE**  \r\n- af \r\n- 11W  \r\n**Size**  \r\n\xD8140mm  \r\n\
+  depth 90mm"
+interfaces:
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true

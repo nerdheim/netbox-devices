@@ -1,0 +1,52 @@
+manufacturer: Ubiquiti
+model: UDM-Pro
+slug: udm-pro
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: "**UniFi Dream Machine Pro**  \r\n**Features**  \r\n- Unifi Controller \
+  \ \r\n- Unifi Protect  \r\n- Unifi Firewall  \r\n- Unifi Switch"
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 50
+  allocated_draw: 33
+- name: RPS
+  type: ''
+  maximum_draw: 50
+  allocated_draw: 33
+interfaces:
+- name: LAN 1 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 2 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 3 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 4 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 5 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 6 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 7 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 8 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 9 (Internet)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 10 Internet SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 11 LAN SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false

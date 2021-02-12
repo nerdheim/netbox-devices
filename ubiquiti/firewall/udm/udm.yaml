@@ -1,0 +1,33 @@
+manufacturer: Ubiquiti
+model: UDM
+slug: udm
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**UniFi Dream Machine**  \r\n**Features**  \r\n- Unifi Controller  \r\n\
+  - Unifi Firewall  \r\n- Unifi Switch  \r\n**Radio**  \r\n- a/b/g/n  \r\n- ac-wave2\
+  \ (Wifi 5)  \r\n**Antenna**  \r\n- Dual-Band, Quad-Dual-Polarity  \r\n*2,4GHz* \
+  \ \r\n- 3 dBi  \r\n- 23 dBm  \r\n- 2x2 MIMO  \r\n*5GHz*  \r\n- 4,5 dBi  \r\n- 30\
+  \ dBm  \r\n- 4x4 MIMO  \r\n**Size**  \r\n\xD8110mm  \r\nhight 184,2mm"
+power-ports:
+- name: PSU
+  type: iec-60320-c8
+  maximum_draw: 26
+  allocated_draw: 26
+interfaces:
+- name: Internet
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 1 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 2 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 3 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: LAN 4 (Switch)
+  type: 1000base-t
+  mgmt_only: false
