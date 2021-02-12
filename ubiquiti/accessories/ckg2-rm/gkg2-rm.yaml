@@ -2,7 +2,7 @@ manufacturer: Ubiquiti
 model: GKG2-RM
 slug: gkg2-rm
 part_number: ''
-u_height: 0
+u_height: 1
 is_full_depth: false
 subdevice_role: parent
 comments: ''
