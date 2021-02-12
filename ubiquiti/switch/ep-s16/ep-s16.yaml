@@ -1,0 +1,72 @@
+manufacturer: Ubiquiti
+model: EdgePoint 16
+slug: ep-s16
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**Power**  \r\n- 54VDC/6A Terminal Block  \r\n**PoE**  \r\n- 54V/24V Passiv\
+  \ & PoE+ (af/at)"
+console-ports:
+- name: Console
+  type: rj-45
+power-ports:
+- name: 54VDC
+  type: ''
+  maximum_draw: 324
+  allocated_draw: 40
+interfaces:
+- name: Port 1 (54/24V PoE IN & OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 2 (54/24V PoE IN & OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 3 (54/24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 4 (54/24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 5 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 6 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 7 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 8 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 9 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 10 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 11 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 12 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 13 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 14 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 15 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 16 (PoE+ & 24V PoE OUT)
+  type: 1000base-t
+  mgmt_only: false
+- name: SFP+ 1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: SFP+ 2
+  type: 10gbase-x-sfpp
+  mgmt_only: false

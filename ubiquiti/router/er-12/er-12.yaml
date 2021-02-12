@@ -1,0 +1,59 @@
+manufacturer: Ubiquiti
+model: EdgeRouter 12
+slug: er-12
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: "**PoE**  \r\n- Port 0 - PoE IN (24V)  \r\n- Port 9 - PoE OUT / Passthrough\
+  \ (24V)"
+console-ports:
+- name: Console
+  type: rj-45
+- name: USB
+  type: usb-a
+power-ports:
+- name: 24VDC
+  type: iec-60320-c6
+  maximum_draw: 24
+  allocated_draw: 20
+interfaces:
+- name: br0
+  type: virtual
+  mgmt_only: false
+- name: eth0 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth1 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth2 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth3 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth4 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth5 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth6 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth7 (Switch)
+  type: 1000base-t
+  mgmt_only: false
+- name: eth8
+  type: 1000base-t
+  mgmt_only: false
+- name: eth9
+  type: 1000base-t
+  mgmt_only: false
+- name: eth10 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: eth11 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false

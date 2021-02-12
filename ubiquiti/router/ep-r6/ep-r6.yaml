@@ -1,0 +1,36 @@
+manufacturer: Ubiquiti
+model: EdgePoint 6
+slug: ep-r6
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**PoE**  \r\n- 24V Passiv  \r\n- PoE Ports - all  \r\n- PoE IN - eth0 \
+  \ \r\n**Switch**  \r\nall Port Switch supportet"
+power-ports:
+- name: 24VDC
+  type: ''
+  maximum_draw: 48
+  allocated_draw: 7
+interfaces:
+- name: br0
+  type: virtual
+  mgmt_only: false
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+- name: eth2
+  type: 1000base-t
+  mgmt_only: false
+- name: eth3
+  type: 1000base-t
+  mgmt_only: false
+- name: eth4
+  type: 1000base-t
+  mgmt_only: false
+- name: eth5 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false

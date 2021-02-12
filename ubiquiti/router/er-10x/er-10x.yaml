@@ -1,0 +1,53 @@
+manufacturer: Ubiquiti
+model: EdgeRouter 10X
+slug: er-10x
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: "**PoE**  \r\n- Port 0 - PoE IN (24V)  \r\n- Port 9 - PoE OUT / Passthrough\
+  \ (24V)  \r\n**Switch**  \r\nall Port Switch supportet"
+console-ports:
+- name: Console
+  type: rj-45
+- name: USB
+  type: usb-a
+power-ports:
+- name: 24VDC
+  type: iec-60320-c6
+  maximum_draw: 24
+  allocated_draw: 8
+interfaces:
+- name: br0
+  type: virtual
+  mgmt_only: false
+- name: eth0
+  type: 1000base-t
+  mgmt_only: false
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+- name: eth2
+  type: 1000base-t
+  mgmt_only: false
+- name: eth3
+  type: 1000base-t
+  mgmt_only: false
+- name: eth4
+  type: 1000base-t
+  mgmt_only: false
+- name: eth5
+  type: 1000base-t
+  mgmt_only: false
+- name: eth6
+  type: 1000base-t
+  mgmt_only: false
+- name: eth7
+  type: 1000base-t
+  mgmt_only: false
+- name: eth8
+  type: 1000base-t
+  mgmt_only: false
+- name: eth9
+  type: 1000base-t
+  mgmt_only: false
