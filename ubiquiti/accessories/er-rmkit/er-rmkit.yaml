@@ -1,0 +1,12 @@
+manufacturer: Ubiquiti
+model: ER-RMKIT
+slug: er-rmkit
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: parent
+comments: "**Supported Devices**  \r\nEdgeRouter 4 (ER-4)  \r\nEdgeRouter 6P (ER-6P)\
+  \  \r\nEdgeRouter 10X (ER-10X)  \r\nEdgeRouter 12 (ER-12)  \r\nEdgeSwitch 10X (ES-10X)\
+  \  \r\nEdgeSwitch 10XP (ES-10XP)  \r\nEdgeRouter 12P (ER-12P)"
+device-bays:
+- name: Edge-X
