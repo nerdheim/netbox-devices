@@ -1,0 +1,24 @@
+manufacturer: Ubiquiti
+model: UNVR
+slug: unvr
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: ''
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 100
+  allocated_draw: 100
+- name: RPS
+  type: ''
+  maximum_draw: 100
+  allocated_draw: 100
+interfaces:
+- name: RJ-45
+  type: 1000base-t
+  mgmt_only: false
+- name: SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false

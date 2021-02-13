@@ -1,0 +1,32 @@
+manufacturer: Ubiquiti
+model: EdgePower 54V
+slug: ep-54v-72w
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "**PoE**  \r\n54V"
+power-ports:
+- name: 12V Battery IN
+  type: ''
+  maximum_draw: 72
+  allocated_draw: 72
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 72
+  allocated_draw: 72
+power-outlets:
+- name: DC OUT
+  type: ''
+  power_port: null
+  feed_leg: ''
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: PoE OUT 1
+  type: 100base-tx
+  mgmt_only: false
+- name: PoE OUT 2
+  type: 100base-tx
+  mgmt_only: false
