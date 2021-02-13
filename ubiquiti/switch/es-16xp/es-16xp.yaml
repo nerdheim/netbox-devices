@@ -1,0 +1,11 @@
+manufacturer: Ubiquiti
+model: EdgeSwitch 16XP
+slug: es-16xp
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: parent
+comments: 2x ES-8XP
+device-bays:
+- name: ES-8XP (1)
+- name: ES-8XP (2)

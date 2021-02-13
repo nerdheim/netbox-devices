@@ -2,7 +2,7 @@ manufacturer: Ubiquiti
 model: EdgeRouter X SFP
 slug: er-x-sfp
 part_number: ''
-u_height: 1
+u_height: 0
 is_full_depth: false
 subdevice_role: ''
 comments: "**PoE**  \r\n- 24V Passiv  \r\n- PoE Ports:  \r\n- eth0-4"

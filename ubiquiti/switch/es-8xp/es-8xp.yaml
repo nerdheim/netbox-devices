@@ -1,0 +1,44 @@
+manufacturer: Ubiquiti
+model: EdgeSwitch 8XP
+slug: es-8xp
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: "**PoE**  \r\n24V/48V"
+console-ports:
+- name: USB
+  type: usb-a
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 150
+  allocated_draw: 150
+interfaces:
+- name: Mgmt0
+  type: 100base-tx
+  mgmt_only: true
+- name: Port 1
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 2
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 3
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 4
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 5
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 6
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 7
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 8
+  type: 1000base-t
+  mgmt_only: false

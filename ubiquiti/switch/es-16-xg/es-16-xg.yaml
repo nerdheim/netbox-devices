@@ -1,0 +1,72 @@
+manufacturer: Ubiquiti
+model: EdgeSwitch 16XG
+slug: es-16-xg
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: "**SFP+ Support**  \r\n- 12x LWL  \r\n- 4x 10G RJ-45"
+console-ports:
+- name: console
+  type: rj-45
+power-ports:
+- name: 25VDC
+  type: ''
+  maximum_draw: 56
+  allocated_draw: 56
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 56
+  allocated_draw: 56
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Port 1 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 2 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 3 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 4 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 5 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 6 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 7 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 8 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 9 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 10 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 11 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 12 SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: Port 13
+  type: 10gbase-t
+  mgmt_only: false
+- name: Port 14
+  type: 10gbase-t
+  mgmt_only: false
+- name: Port 15
+  type: 10gbase-t
+  mgmt_only: false
+- name: Port 16
+  type: 10gbase-t
+  mgmt_only: false

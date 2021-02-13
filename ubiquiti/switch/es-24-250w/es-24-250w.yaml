@@ -1,16 +1,20 @@
 manufacturer: Ubiquiti
-model: US-16-150W
-slug: us-16-150w
+model: EdgeSwitch 24 250W
+slug: es-24-250w
 part_number: ''
 u_height: 1
 is_full_depth: false
 subdevice_role: ''
-comments: ''
+comments: "**PoE**  \r\n- 24V Passiv  \r\n- PoE (802.3af)  \r\n- PoE+ (802.3at)  \r\
+  \n- PoE Ports:  \r\n- 1-24"
+console-ports:
+- name: console
+  type: ''
 power-ports:
 - name: PSU
   type: iec-60320-c14
-  maximum_draw: 150
-  allocated_draw: 28
+  maximum_draw: 250
+  allocated_draw: 30
 interfaces:
 - name: Mgmt0
   type: virtual
@@ -63,9 +67,33 @@ interfaces:
 - name: Port 16
   type: 1000base-t
   mgmt_only: false
-- name: Port 17 SFP
-  type: virtual
+- name: Port 17
+  type: 1000base-t
   mgmt_only: false
-- name: Port 18 SFP
-  type: virtual
+- name: Port 18
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 19
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 20
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 21
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 22
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 23
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 24
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 25 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: Port 26 SFP
+  type: 1000base-x-sfp
   mgmt_only: false
