@@ -1,0 +1,98 @@
+manufacturer: HP
+model: Procurve 1810-24Gv2
+slug: 1810-24gv2
+part_number: J9803A
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: "**Features**  \r\n- Fanless  \r\n  \r\n**SFP's**  \r\n  \r\n| Type  | Speed\
+  \ | Wave   | Model No. |\r\n| ----- | ----- | ------ | --------- |\r\n| RJ-45 |\
+  \ 1G    | \\-     | J8177C    |\r\n| MMF   | 1G    | 850nm  | J4858C    |\r\n| MMF\
+  \   | 100M  | 1310nm | J9054C    |\r\n| SMF   | 1G    | 1310nm | J4859C    |"
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 40
+  allocated_draw: 22
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+- name: Port 1
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 2
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 3
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 4
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 5
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 6
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 7
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 8
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 9
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 10
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 11
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 12
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 13
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 14
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 15
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 16
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 17
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 18
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 19
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 20
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 21
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 22
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 23
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 24
+  type: 1000base-t
+  mgmt_only: false
+- name: Port 25 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: Port 26 SFP
+  type: 1000base-x-sfp
+  mgmt_only: false
