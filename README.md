@@ -17,4 +17,5 @@ Issues are more of a to do list for me, so I may not accept your wishes.
 ## Disclamer  
 Pictures are ripped from vendor manuels or other sorces.  
   
+## Other Sources  
 If you are looking for a general library check [https://github.com/netbox-community/devicetype-library/tree/master/device-types].
