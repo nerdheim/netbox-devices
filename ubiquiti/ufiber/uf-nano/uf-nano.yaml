@@ -1,0 +1,21 @@
+manufacturer: Ubiquiti
+model: UF-Nano
+slug: uf-nano
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: CPE
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+front-ports:
+- name: Network
+  type: 8p8c
+  rear_port: PON
+  rear_port_position: 1
+rear-ports:
+- name: PON
+  type: sc-apc
+  positions: 1

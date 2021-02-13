@@ -1,0 +1,41 @@
+manufacturer: Ubiquiti
+model: UF-OLT-4
+slug: uf-olt-4
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: ''
+console-ports:
+- name: Console
+  type: rj-45
+- name: USB
+  type: usb-a
+power-ports:
+- name: 24VDC
+  type: ''
+  maximum_draw: 56
+  allocated_draw: 35
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 56
+  allocated_draw: 35
+interfaces:
+- name: Mgmt0
+  type: 1000base-t
+  mgmt_only: true
+- name: PON 1
+  type: other
+  mgmt_only: false
+- name: PON 2
+  type: other
+  mgmt_only: false
+- name: PON 3
+  type: other
+  mgmt_only: false
+- name: PON 4
+  type: other
+  mgmt_only: false
+- name: SFP+
+  type: 10gbase-x-sfpp
+  mgmt_only: false

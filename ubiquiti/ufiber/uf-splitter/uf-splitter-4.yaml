@@ -1,0 +1,38 @@
+manufacturer: Ubiquiti
+model: UF-Splitter-4
+slug: uf-splitter-4
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: ''
+front-ports:
+- name: PON 1
+  type: sc-apc
+  rear_port: PON IN :1
+  rear_port_position: 1
+- name: PON 2
+  type: sc-apc
+  rear_port: PON IN :2
+  rear_port_position: 1
+- name: PON 3
+  type: sc-apc
+  rear_port: PON IN :3
+  rear_port_position: 1
+- name: PON 4
+  type: sc-apc
+  rear_port: PON IN :4
+  rear_port_position: 1
+rear-ports:
+- name: PON IN :1
+  type: sc-apc
+  positions: 1
+- name: PON IN :2
+  type: sc-apc
+  positions: 1
+- name: PON IN :3
+  type: sc-apc
+  positions: 1
+- name: PON IN :4
+  type: sc-apc
+  positions: 1

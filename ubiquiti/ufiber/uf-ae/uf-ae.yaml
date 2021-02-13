@@ -1,0 +1,15 @@
+manufacturer: Ubiquiti
+model: UF-AE
+slug: uf-ae
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: "SFP(+) to RJ-45 Mediaconverter  \r\nPower via 24V / af PoE"
+interfaces:
+- name: Network
+  type: 1000base-t
+  mgmt_only: false
+- name: SFP
+  type: 10gbase-x-sfpp
+  mgmt_only: false

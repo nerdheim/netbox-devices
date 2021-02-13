@@ -1,0 +1,234 @@
+manufacturer: Ubiquiti
+model: UF-Splitter-32
+slug: uf-splitter-32
+part_number: ''
+u_height: 0
+is_full_depth: false
+subdevice_role: ''
+comments: ''
+front-ports:
+- name: PON 1
+  type: sc-apc
+  rear_port: PON IN :1
+  rear_port_position: 1
+- name: PON 2
+  type: sc-apc
+  rear_port: PON IN :2
+  rear_port_position: 1
+- name: PON 3
+  type: sc-apc
+  rear_port: PON IN :3
+  rear_port_position: 1
+- name: PON 4
+  type: sc-apc
+  rear_port: PON IN :4
+  rear_port_position: 1
+- name: PON 5
+  type: sc-apc
+  rear_port: PON IN :5
+  rear_port_position: 1
+- name: PON 6
+  type: sc-apc
+  rear_port: PON IN :6
+  rear_port_position: 1
+- name: PON 7
+  type: sc-apc
+  rear_port: PON IN :7
+  rear_port_position: 1
+- name: PON 8
+  type: sc-apc
+  rear_port: PON IN :8
+  rear_port_position: 1
+- name: PON 9
+  type: sc-apc
+  rear_port: PON IN :9
+  rear_port_position: 1
+- name: PON 10
+  type: sc-apc
+  rear_port: PON IN :10
+  rear_port_position: 1
+- name: PON 11
+  type: sc-apc
+  rear_port: PON IN :11
+  rear_port_position: 1
+- name: PON 12
+  type: sc-apc
+  rear_port: PON IN :12
+  rear_port_position: 1
+- name: PON 13
+  type: sc-apc
+  rear_port: PON IN :13
+  rear_port_position: 1
+- name: PON 14
+  type: sc-apc
+  rear_port: PON IN :14
+  rear_port_position: 1
+- name: PON 15
+  type: sc-apc
+  rear_port: PON IN :15
+  rear_port_position: 1
+- name: PON 16
+  type: sc-apc
+  rear_port: PON IN :16
+  rear_port_position: 1
+- name: PON 17
+  type: sc-apc
+  rear_port: PON IN :17
+  rear_port_position: 1
+- name: PON 18
+  type: sc-apc
+  rear_port: PON IN :18
+  rear_port_position: 1
+- name: PON 19
+  type: sc-apc
+  rear_port: PON IN :19
+  rear_port_position: 1
+- name: PON 20
+  type: sc-apc
+  rear_port: PON IN :20
+  rear_port_position: 1
+- name: PON 21
+  type: sc-apc
+  rear_port: PON IN :21
+  rear_port_position: 1
+- name: PON 22
+  type: sc-apc
+  rear_port: PON IN :22
+  rear_port_position: 1
+- name: PON 23
+  type: sc-apc
+  rear_port: PON IN :23
+  rear_port_position: 1
+- name: PON 24
+  type: sc-apc
+  rear_port: PON IN :24
+  rear_port_position: 1
+- name: PON 25
+  type: sc-apc
+  rear_port: PON IN :25
+  rear_port_position: 1
+- name: PON 26
+  type: sc-apc
+  rear_port: PON IN :26
+  rear_port_position: 1
+- name: PON 27
+  type: sc-apc
+  rear_port: PON IN :27
+  rear_port_position: 1
+- name: PON 28
+  type: sc-apc
+  rear_port: PON IN :28
+  rear_port_position: 1
+- name: PON 29
+  type: sc-apc
+  rear_port: PON IN :29
+  rear_port_position: 1
+- name: PON 30
+  type: sc-apc
+  rear_port: PON IN :30
+  rear_port_position: 1
+- name: PON 31
+  type: sc-apc
+  rear_port: PON IN :31
+  rear_port_position: 1
+- name: PON 32
+  type: sc-apc
+  rear_port: PON IN :32
+  rear_port_position: 1
+rear-ports:
+- name: PON IN :1
+  type: sc-apc
+  positions: 1
+- name: PON IN :2
+  type: sc-apc
+  positions: 1
+- name: PON IN :3
+  type: sc-apc
+  positions: 1
+- name: PON IN :4
+  type: sc-apc
+  positions: 1
+- name: PON IN :5
+  type: sc-apc
+  positions: 1
+- name: PON IN :6
+  type: sc-apc
+  positions: 1
+- name: PON IN :7
+  type: sc-apc
+  positions: 1
+- name: PON IN :8
+  type: sc-apc
+  positions: 1
+- name: PON IN :9
+  type: sc-apc
+  positions: 1
+- name: PON IN :10
+  type: sc-apc
+  positions: 1
+- name: PON IN :11
+  type: sc-apc
+  positions: 1
+- name: PON IN :12
+  type: sc-apc
+  positions: 1
+- name: PON IN :13
+  type: sc-apc
+  positions: 1
+- name: PON IN :14
+  type: sc-apc
+  positions: 1
+- name: PON IN :15
+  type: sc-apc
+  positions: 1
+- name: PON IN :16
+  type: sc-apc
+  positions: 1
+- name: PON IN :17
+  type: sc-apc
+  positions: 1
+- name: PON IN :18
+  type: sc-apc
+  positions: 1
+- name: PON IN :19
+  type: sc-apc
+  positions: 1
+- name: PON IN :20
+  type: sc-apc
+  positions: 1
+- name: PON IN :21
+  type: sc-apc
+  positions: 1
+- name: PON IN :22
+  type: sc-apc
+  positions: 1
+- name: PON IN :23
+  type: sc-apc
+  positions: 1
+- name: PON IN :24
+  type: sc-apc
+  positions: 1
+- name: PON IN :25
+  type: sc-apc
+  positions: 1
+- name: PON IN :26
+  type: sc-apc
+  positions: 1
+- name: PON IN :27
+  type: sc-apc
+  positions: 1
+- name: PON IN :28
+  type: sc-apc
+  positions: 1
+- name: PON IN :29
+  type: sc-apc
+  positions: 1
+- name: PON IN :30
+  type: sc-apc
+  positions: 1
+- name: PON IN :31
+  type: sc-apc
+  positions: 1
+- name: PON IN :32
+  type: sc-apc
+  positions: 1

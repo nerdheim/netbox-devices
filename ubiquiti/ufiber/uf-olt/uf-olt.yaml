@@ -1,0 +1,54 @@
+manufacturer: Ubiquiti
+model: UF-OLT
+slug: uf-olt
+part_number: ''
+u_height: 1
+is_full_depth: false
+subdevice_role: ''
+comments: ''
+console-ports:
+- name: Console
+  type: rj-45
+power-ports:
+- name: PSU 1
+  type: ''
+  maximum_draw: 100
+  allocated_draw: 40
+- name: PSU 2
+  type: ''
+  maximum_draw: 100
+  allocated_draw: 40
+interfaces:
+- name: Mgmt0
+  type: 1000base-t
+  mgmt_only: true
+- name: PON 1
+  type: other
+  mgmt_only: false
+- name: PON 2
+  type: other
+  mgmt_only: false
+- name: PON 3
+  type: other
+  mgmt_only: false
+- name: PON 4
+  type: other
+  mgmt_only: false
+- name: PON 5
+  type: other
+  mgmt_only: false
+- name: PON 6
+  type: other
+  mgmt_only: false
+- name: PON 7
+  type: other
+  mgmt_only: false
+- name: PON 8
+  type: other
+  mgmt_only: false
+- name: SFP+ 1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+- name: SFP+ 2
+  type: 10gbase-x-sfpp
+  mgmt_only: false
