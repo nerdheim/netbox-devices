@@ -15,4 +15,6 @@ May I publish a second version to have both versions.
 Issues are more of a to do list for me, so I may not accept your wishes.  
 
 ## Disclamer  
-Pictures are ripped from vendor manuels or other sorces.
+Pictures are ripped from vendor manuels or other sorces.  
+  
+If you are looking for a general library check [https://github.com/netbox-community/devicetype-library/tree/master/device-types].
