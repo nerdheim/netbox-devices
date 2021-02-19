@@ -1,0 +1,81 @@
+manufacturer: HP
+model: Procurve xl Modul - 24 Port
+slug: J4820A
+part_number: J4820A
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: ''
+interfaces:
+- name: Port 1
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 2
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 3
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 4
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 5
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 6
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 7
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 8
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 9
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 10
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 11
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 12
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 13
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 14
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 15
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 16
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 17
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 18
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 19
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 20
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 21
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 22
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 23
+  type: 100base-tx
+  mgmt_only: false
+- name: Port 24
+  type: 100base-tx
+  mgmt_only: false

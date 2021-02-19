@@ -1,0 +1,25 @@
+manufacturer: HP
+model: Procurve 5304xl
+slug: procurve-5304xl
+part_number: J4850A
+u_height: 3
+is_full_depth: true
+subdevice_role: parent
+comments: Switch / Router
+console-ports:
+- name: Console
+  type: de-9
+power-ports:
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: 630
+  allocated_draw: 630
+- name: PSU 2
+  type: iec-60320-c14
+  maximum_draw: 630
+  allocated_draw: 630
+device-bays:
+- name: A
+- name: B
+- name: C
+- name: D

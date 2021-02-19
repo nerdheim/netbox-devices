@@ -1,0 +1,33 @@
+manufacturer: HP
+model: Procurve 5308xl
+slug: 5308xl
+part_number: J4819A
+u_height: 5
+is_full_depth: false
+subdevice_role: parent
+comments: Switch / Router
+console-ports:
+- name: Console
+  type: de-9
+power-ports:
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: 630
+  allocated_draw: 630
+- name: PSU 2
+  type: iec-60320-c14
+  maximum_draw: 630
+  allocated_draw: 630
+interfaces:
+- name: Mgmt0
+  type: virtual
+  mgmt_only: true
+device-bays:
+- name: A
+- name: B
+- name: C
+- name: D
+- name: E
+- name: F
+- name: G
+- name: H

@@ -1,0 +1,22 @@
+manufacturer: HP
+model: Procurve xl Modul - 4 Port SFP
+slug: J4878A
+part_number: J4878A
+u_height: 0
+is_full_depth: false
+subdevice_role: child
+comments: "J4858A ProCurve Gigabit-SX-LC mini-GBIC  \r\nJ4859A ProCurve Gigabit-LX-LC\
+  \ mini-GBIC  \r\nJ4860A ProCurve Gigabit-LH-LC mini-GBIC"
+interfaces:
+- name: Port 1
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: Port 2
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: Port 3
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: Port 4
+  type: 1000base-x-sfp
+  mgmt_only: false
