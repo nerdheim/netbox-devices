@@ -1,0 +1,24 @@
+manufacturer: Sophos
+model: 2-Port 40 GbE QSFP+
+slug: 2-port-40-gbe-qsfp
+part_number: ''
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: ''
+comments: ''
+interfaces:
+- name: '1'
+  type: 40gbase-x-qsfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '2'
+  type: 40gbase-x-qsfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
