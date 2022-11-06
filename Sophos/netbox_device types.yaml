@@ -1,0 +1,83 @@
+manufacturer: Sophos
+model: XG230
+slug: xg230
+part_number: ''
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: ''
+comments: ''
+console-ports:
+- name: console
+  type: ''
+  label: ''
+  description: ''
+power-ports:
+- name: PSU
+  type: ''
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: 1/LAN
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: 2/WAN
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '3'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '4'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '5'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '6'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '7'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '8'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+module-bays:
+- name: Flex
+  label: ''
+  position: A
+  description: Sophos Flex Slot
