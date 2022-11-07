@@ -1,6 +1,6 @@
 manufacturer: Sophos
-model: XG230
-slug: xg230
+model: XG210
+slug: xg210
 part_number: ''
 u_height: 1.0
 is_full_depth: true
@@ -8,14 +8,14 @@ subdevice_role: parent
 airflow: ''
 comments: "| Type                                          | Number        |\r\n|\
   \ --------------------------------------------- | ------------- |\r\n| Firewall-Durchsatz\
-  \                            | 32.000\_MBit/s |\r\n| Firewall IMIX             \
-  \                    | 14.800\_MBit/s |\r\n| IPS-Durchsatz                     \
-  \            | 4.900\_MBit/s  |\r\n| NGFW-Durchsatz                            \
-  \    | 4.500\_MBit/s  |\r\n| Durchsatz Bedrohungsschutz                    | 1.000\_\
-  MBit/s  |\r\n| Gleichzeitige Verbindungen                    | 6.570.000     |\r\
-  \n| Neue Verbindungen/Sek.                        | 108.900       |\r\n| IPsec-VPN-Durchsatz\
-  \                           | 2.100\_MBit/s  |\r\n| XStream-SSLEntschl\xFCsselung\
-  \ + Bedrohungsschutz | 280\_MBit/s    |\r\n| Gleichzeitige Verbindungen XStream\
+  \                            | 29.000\_MBit/s |\r\n| Firewall IMIX             \
+  \                    | 12.100\_MBit/s |\r\n| IPS-Durchsatz                     \
+  \            | 4.200\_MBit/s  |\r\n| NGFW-Durchsatz                            \
+  \    | 3.200\_MBit/s  |\r\n| Durchsatz Bedrohungsschutz                    | 800\_\
+  MBit/s    |\r\n| Gleichzeitige Verbindungen                    | 6.570.000     |\r\
+  \n| Neue Verbindungen/Sek.                        | 88.900        |\r\n| IPsec-VPN-Durchsatz\
+  \                           | 1.920\_MBit/s  |\r\n| XStream-SSLEntschl\xFCsselung\
+  \ + Bedrohungsschutz | 230\_MBit/s    |\r\n| Gleichzeitige Verbindungen XStream\
   \ SSL        | 18.432        |"
 console-ports:
 - name: console
@@ -25,8 +25,8 @@ console-ports:
 power-ports:
 - name: PSU
   type: ''
-  maximum_draw: 41
-  allocated_draw: 41
+  maximum_draw: 35
+  allocated_draw: 35
   label: ''
   description: ''
 interfaces:
@@ -89,5 +89,5 @@ interfaces:
 module-bays:
 - name: Flex
   label: ''
-  position: A
+  position: ''
   description: Sophos Flex Slot
