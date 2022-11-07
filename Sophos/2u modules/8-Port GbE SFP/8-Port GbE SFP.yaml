@@ -1,0 +1,66 @@
+manufacturer: Sophos
+model: 8-Port GbE SFP
+slug: 8-port-gbe-sfp
+part_number: ''
+u_height: 0.0
+is_full_depth: false
+subdevice_role: child
+airflow: ''
+comments: ''
+interfaces:
+- name: '1'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '2'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '3'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '4'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '5'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '6'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '7'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '8'
+  type: 1000base-x-sfp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
