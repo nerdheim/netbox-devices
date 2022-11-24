@@ -1,0 +1,89 @@
+manufacturer: Mikrotik
+model: CRS305-1G-4S+IN
+slug: crs305-1g-4sin
+part_number: ''
+u_height: 0.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: "# Specifications\r\n| Product code               | CRS305-1G-4S+IN    \
+  \                |\r\n| -------------------------- | ----------------------------------\
+  \ |\r\n| Architecture               | ARM 32bit                          |\r\n|\
+  \ CPU                        | 98DX3236                           |\r\n| CPU core\
+  \ count             | 1                                  |\r\n| CPU nominal frequency\
+  \      | 800 MHz                            |\r\n| Dimensions                 |\
+  \ 141 x 115 x 28 mm                  |\r\n| RouterOS license           | 5     \
+  \                             |\r\n| Operating System           | RouterOS / SwitchOS\
+  \                |\r\n| Size of RAM                | 512 MB                    \
+  \         |\r\n| Storage size               | 16 MB                            \
+  \  |\r\n| Storage type               | FLASH                              |\r\n\
+  | MTBF                       | Approximately 200'000 hours at 25C |\r\n| Tested\
+  \ ambient temperature | \\-40\xB0C to 70\xB0C                     |\r\n| Suggested\
+  \ price            | $149.00                            |\r\n\r\n# Powering\r\n\
+  | Number of DC inputs                       | 3 (DC jack, PoE-IN) |\r\n| -----------------------------------------\
+  \ | ------------------- |\r\n| DC jack input Voltage                     | 12-57\
+  \ V             |\r\n| Max power consumption                     | 18 W        \
+  \        |\r\n| Max power consumption without attachments | 10 W               \
+  \ |\r\n| Cooling type                              | Passive             |\r\n|\
+  \ PoE in                                    | 802.3af/at          |\r\n| PoE in\
+  \ input Voltage                      | 12-57 V             |\r\n\r\n# Switching\
+  \ results\r\n| Mode      | Configuration                   | 1518 byte |       \
+  \   | 512 byte |          | 64 byte  |          |\r\n| --------- | -------------------------------\
+  \ | --------- | -------- | -------- | -------- | -------- | -------- |\r\n|    \
+  \       |                                 | kpps      | Mbps     | kpps     | Mbps\
+  \     | kpps     | Mbps     |\r\n| Switching | Non blocking Layer 2 throughput |\
+  \ 3,332.2   | 40,466.8 | 9,633.5  | 39,458.6 | 61,011.9 | 31,238.1 |\r\n| Switching\
+  \ | Non blocking Layer 2 capacity   | 3,332.2   | 80,933.7 | 9,633.5  | 78,917.3\
+  \ | 61,011.9 | 62,476.2 |\r\n| Switching | Non blocking Layer 1 throughput | 3,332.2\
+  \   | 41,000.0 | 9,633.5  | 41,000.0 | 61,011.9 | 41,000.0 |\r\n| Switching | Non\
+  \ blocking Layer 1 capacity   | 3,332.2   | 82,000.0 | 9,633.5  | 82,000.0 | 61,011.9\
+  \ | 82,000.0 |"
+power-ports:
+- name: DC1
+  type: dc-terminal
+  maximum_draw: 18
+  allocated_draw: 18
+  label: ''
+  description: DC 12-57V
+- name: DC2
+  type: dc-terminal
+  maximum_draw: 18
+  allocated_draw: 18
+  label: ''
+  description: DC 12-57V
+interfaces:
+- name: '1'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '2'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '3'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '4'
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: ETH/BOOT
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pd
+  poe_type: type2-ieee802.3at

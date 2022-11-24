@@ -1,0 +1,109 @@
+manufacturer: Mikrotik
+model: RouterBOARD hEX RB750Gr3
+slug: rb750gr3
+part_number: RB750Gr3
+u_height: 0.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: "Specifications\r\n# Specifications\r\n| Product code                | RB750Gr3\
+  \                                              |\r\n| ---------------------------\
+  \ | ----------------------------------------------------- |\r\n| Architecture  \
+  \              | MMIPS                                                 |\r\n| CPU\
+  \                         | MT7621A                                            \
+  \   |\r\n| CPU core count              | 2                                     \
+  \                |\r\n| CPU nominal frequency       | 880 MHz                  \
+  \                             |\r\n| CPU Threads count           | 4           \
+  \                                          |\r\n| Dimensions                  |\
+  \ 113x89x28mm                                           |\r\n| RouterOS license\
+  \            | 4                                                     |\r\n| Operating\
+  \ System            | [RouterOS](https://wiki.mikrotik.com/wiki/Manual:TOC) |\r\n\
+  | Size of RAM                 | 256 MB                                         \
+  \       |\r\n| Storage size                | 16 MB                             \
+  \                    |\r\n| Storage type                | FLASH                \
+  \                                 |\r\n| MTBF                        | Approximately\
+  \ 100'000 hours at 25C                    |\r\n| Tested ambient temperature  | \\\
+  -40\xB0C to 60\xB0C                                        |\r\n| IPsec hardware\
+  \ acceleration | Yes                                                   |\r\n| Suggested\
+  \ price             | $59.95                                                |\r\n\
+  \r\n# Powering\r\n| Number of DC inputs                       | 2 (DC jack, PoE-IN)\
+  \ |\r\n| ----------------------------------------- | ------------------- |\r\n|\
+  \ DC jack input Voltage                     | 8-30 V              |\r\n| Max power\
+  \ consumption                     | 10 W                |\r\n| Max power consumption\
+  \ without attachments | 5 W                 |\r\n| Cooling type                \
+  \              | Passive             |\r\n| PoE in                             \
+  \       | Passive PoE         |\r\n| PoE in input Voltage                      |\
+  \ 8-30 V              |\r\n\r\n# Peripherals\r\n| Memory card type    | microSD\
+  \    |\r\n| ------------------- | ---------- |\r\n| Memory Cards        | 1    \
+  \      |\r\n| Number of USB ports | 1          |\r\n| USB Power Reset     | Yes\
+  \        |\r\n| USB slot type       | USB type A |\r\n| Max USB current (A) | 1\
+  \          |\r\n\r\n# Ethernet test results\r\n| Mode     | Configuration      \
+  \    | 1518 byte |         | 512 byte |         | 64 byte |       |\r\n| --------\
+  \ | ---------------------- | --------- | ------- | -------- | ------- | -------\
+  \ | ----- |\r\n| kpps     | Mbps                   | kpps      | Mbps    | kpps\
+  \     | Mbps    |\r\n| Bridging | none (fast path)       | 162.4     | 1,972.2 |\
+  \ 443.7    | 1,817.4 | 1039.1  | 532.0 |\r\n| Bridging | 25 bridge filter rules\
+  \ | 162.4     | 1,972.2 | 168.1    | 688.5   | 174.3   | 89.2  |\r\n| Routing  |\
+  \ none (fast path)       | 162.4     | 1,972.2 | 444.4    | 1,820.3 | 1035.0  |\
+  \ 529.9 |\r\n| Routing  | 25 simple queues       | 162.4     | 1,972.2 | 179.6 \
+  \   | 735.6   | 171.4   | 87.8  |\r\n| Routing  | 25 ip filter rules     | 92.9\
+  \      | 1,128.2 | 94.1     | 385.4   | 93.8    | 48.0  |\r\n\r\n# IPSec test results\r\
+  \n| Mode          | Configuration        | 1400 byte |       | 512 byte |      \
+  \ | 64 byte |          |\r\n| ------------- | -------------------- | --------- |\
+  \ ----- | -------- | ----- | ------- | -------- |\r\n|               |         \
+  \             | kpps      | Mbps  | kpps     | Mbps  | kpps    | Mbps     |\r\n\
+  | Single tunnel | AES-128-CBC + SHA1   | 41.9      | 469.3 | 42.3     | 173.3 |\
+  \ 41.5    | 21\\. Feb |\r\n| 256 tunnels   | AES-128-CBC + SHA1   | 41.9      |\
+  \ 469.3 | 43.7     | 179   | 42.7    | 21\\. Sep |\r\n| 256 tunnels   | AES-128-CBC\
+  \ + SHA256 | 42.2      | 472.6 | 44.4     | 181.9 | 42.7    | 21\\. Sep |\r\n| 256\
+  \ tunnels   | AES-256-CBC + SHA1   | 32        | 358.4 | 40       | 163.8 | 40.5\
+  \    | 20\\. Jul |\r\n| 256 tunnels   | AES-256-CBC + SHA256 | 32.1      | 359.5\
+  \ | 39.7     | 162.6 | 40.5    | 20\\. Jul |"
+console-ports:
+- name: USB
+  type: usb-a
+  label: ''
+  description: ''
+power-ports:
+- name: Power
+  type: dc-terminal
+  maximum_draw: 10
+  allocated_draw: 5
+  label: ''
+  description: 8-30V
+interfaces:
+- name: 1/Internet
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: pse
+  poe_type: passive-24v-2pair
+- name: '2'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '3'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '4'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: '5'
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
