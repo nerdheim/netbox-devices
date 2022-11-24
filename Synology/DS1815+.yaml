@@ -1,0 +1,45 @@
+manufacturer: Synology
+model: DS1815+
+slug: ds1815
+part_number: ''
+u_height: 5.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: ''
+power-ports:
+- name: Power IN
+  type: iec-60320-c14
+  maximum_draw: 150
+  allocated_draw: 120
+  label: ''
+  description: ''
+interfaces:
+- name: LAN 1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 3
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 4
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''

@@ -1,0 +1,100 @@
+manufacturer: AVM
+model: '7590'
+slug: '7590'
+part_number: ''
+u_height: 0.0
+is_full_depth: false
+subdevice_role: ''
+airflow: passive
+comments: ''
+power-ports:
+- name: Power IN
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: LAN 1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 3
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 4
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: MGMT
+  type: virtual
+  mgmt_only: true
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: WAN
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+front-ports:
+- name: DSL
+  type: 8p2c
+  color: ''
+  rear_port: DSL
+  rear_port_position: 1
+  label: ''
+  description: ''
+- name: FON 1
+  type: 4p2c
+  color: ''
+  rear_port: FON 1
+  rear_port_position: 1
+  label: ''
+  description: ''
+- name: FON 2
+  type: 4p2c
+  color: ''
+  rear_port: FON 2
+  rear_port_position: 1
+  label: ''
+  description: ''
+rear-ports:
+- name: DSL
+  type: 8p2c
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: FON 1
+  type: 4p2c
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: FON 2
+  type: 4p2c
+  color: ''
+  positions: 1
+  label: ''
+  description: ''

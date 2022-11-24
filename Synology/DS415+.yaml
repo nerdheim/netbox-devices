@@ -1,0 +1,32 @@
+
+manufacturer: Synology
+model: DS415+
+slug: ds415
+part_number: ''
+u_height: 5.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: ''
+power-ports:
+- name: Power IN
+  type: iec-60320-c14
+  maximum_draw: 150
+  allocated_draw: 80
+  label: ''
+  description: ''
+interfaces:
+- name: LAN 1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
