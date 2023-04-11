@@ -1,3 +1,10 @@
 name,slug,description
 Ubiquiti,ubiquiti,
 HP,hp,
+Checkpoint,checkpoint,
+AVM,avm,
+Mellanox,mellanox,
+Mikrotik,mikrotik,
+Sophos,sophos,
+Synology,synology,
+Dell,dell,
