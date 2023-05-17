@@ -1,0 +1,51 @@
+manufacturer: IBM
+model: x3550 M3
+slug: x3550-m3
+part_number: ''
+u_height: 1.0
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+comments: "Modell NTT geschenkt\r\n**CPU**  \r\nIntel 2x 0  \r\n**RAM**  \r\nGesammt\
+  \ 0GB  \r\nBestehend aus 18x8GB Modulen  \r\n**Storage**  \r\n*Slot 1*  \r\n*Slot\
+  \ 2*"
+console-ports:
+- name: Console
+  type: de-9
+  label: ''
+  description: ''
+power-ports:
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: 750
+  allocated_draw: 150
+  label: ''
+  description: ''
+- name: PSU 2
+  type: iec-60320-c14
+  maximum_draw: 750
+  allocated_draw: 150
+  label: ''
+  description: ''
+interfaces:
+- name: IMM
+  type: 1000base-t
+  mgmt_only: true
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: eth2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''

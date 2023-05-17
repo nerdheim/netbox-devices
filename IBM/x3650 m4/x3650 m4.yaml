@@ -1,0 +1,72 @@
+manufacturer: IBM
+model: x3650 M4
+slug: x3650-m4
+part_number: ''
+u_height: 2.0
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+comments: ''
+power-ports:
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: 750
+  allocated_draw: 200
+  label: ''
+  description: ''
+- name: PSU 2
+  type: iec-60320-c14
+  maximum_draw: 750
+  allocated_draw: 200
+  label: ''
+  description: ''
+interfaces:
+- name: IMM
+  type: 100base-tx
+  mgmt_only: true
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 3
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LAN 4
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: LOM 1
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: (expansion card)
+  poe_mode: ''
+  poe_type: ''
+- name: LOM 2
+  type: 10gbase-x-sfpp
+  mgmt_only: false
+  label: ''
+  description: (expansion card)
+  poe_mode: ''
+  poe_type: ''

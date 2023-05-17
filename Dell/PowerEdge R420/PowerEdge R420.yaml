@@ -1,0 +1,49 @@
+manufacturer: Dell
+model: PowerEdge R420
+slug: poweredge-r420
+part_number: ''
+u_height: 1.0
+is_full_depth: true
+subdevice_role: ''
+airflow: front-to-rear
+comments: ''
+console-ports:
+- name: console
+  type: de-9
+  label: ''
+  description: ''
+power-ports:
+- name: PSU 1
+  type: iec-60320-c14
+  maximum_draw: 550
+  allocated_draw: 150
+  label: ''
+  description: ''
+- name: PSU 2
+  type: iec-60320-c14
+  maximum_draw: 550
+  allocated_draw: 150
+  label: ''
+  description: ''
+interfaces:
+- name: eth1
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: eth2
+  type: 1000base-t
+  mgmt_only: false
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
+- name: iDRAC
+  type: 1000base-t
+  mgmt_only: true
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
