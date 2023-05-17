@@ -1,0 +1,100 @@
+manufacturer: Dell
+model: UPS 5600W
+slug: ups-5600w
+part_number: ''
+u_height: 4.0
+is_full_depth: true
+subdevice_role: ''
+airflow: ''
+comments: ''
+console-ports:
+- name: Settings
+  type: rj-45
+  label: ''
+  description: RS232
+- name: USB
+  type: usb-b
+  label: ''
+  description: ''
+power-ports:
+- name: Extend Battery
+  type: hardwired
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: 216V DC 30A
+- name: Power IN
+  type: hardwired
+  maximum_draw: 5600
+  allocated_draw: null
+  label: ''
+  description: ''
+power-outlets:
+- name: LS1-1
+  type: iec-60320-c19
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS1-2
+  type: iec-60320-c19
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS1-3
+  type: iec-60320-c19
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS1-4
+  type: iec-60320-c19
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS2-1
+  type: iec-60320-c13
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS2-2
+  type: iec-60320-c13
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS2-3
+  type: iec-60320-c13
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS2-4
+  type: iec-60320-c13
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS2-5
+  type: iec-60320-c13
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+- name: LS2-6
+  type: iec-60320-c13
+  power_port: Power IN
+  feed_leg: ''
+  label: ''
+  description: ''
+interfaces:
+- name: ETHERNET
+  type: 100base-tx
+  mgmt_only: true
+  label: ''
+  description: ''
+  poe_mode: ''
+  poe_type: ''
