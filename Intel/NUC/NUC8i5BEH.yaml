@@ -1,0 +1,51 @@
+manufacturer: Intel
+model: NUC8-i5-high
+slug: nuc8-i5-high
+default_platform: null
+part_number: NUC8i5BEH
+u_height: 0.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: "**CPU**  \r\nIntel i5-8259U  \r\n**RAM**  \r\nGB  \r\n**Storage**  \r\n\
+  *Slot 1 - NVMe/SATA M.2*  \r\n*Slot 1 - SATA*"
+weight: null
+weight_unit: ''
+power-ports:
+- name: Power IN
+  type: dc-terminal
+  maximum_draw: 65
+  allocated_draw: 35
+  label: ''
+  description: ''
+interfaces:
+- name: bl0
+  type: ieee802.15.1
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth0
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: wlan
+  type: ieee802.11ac
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''

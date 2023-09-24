@@ -1,0 +1,63 @@
+manufacturer: Intel
+model: S2600TPR
+slug: s2600tpr
+default_platform: null
+part_number: ''
+u_height: 0.0
+is_full_depth: true
+subdevice_role: child
+airflow: ''
+comments: ''
+weight: null
+weight_unit: ''
+interfaces:
+- name: Management
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: SFP+ 1
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: SFP+ 2
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth0
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''

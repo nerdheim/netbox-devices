@@ -1,0 +1,38 @@
+manufacturer: Intel
+model: VRN2224THY6
+slug: vrn2224thy6
+default_platform: null
+part_number: ''
+u_height: 2.0
+is_full_depth: true
+subdevice_role: parent
+airflow: ''
+comments: ''
+weight: null
+weight_unit: ''
+power-ports:
+- name: PSU 1
+  type: ''
+  maximum_draw: 1600
+  allocated_draw: 1000
+  label: ''
+  description: ''
+- name: PSU 2
+  type: ''
+  maximum_draw: 1600
+  allocated_draw: 1000
+  label: ''
+  description: ''
+device-bays:
+- name: Node1
+  label: ''
+  description: ''
+- name: Node2
+  label: ''
+  description: ''
+- name: Node3
+  label: ''
+  description: ''
+- name: Node4
+  label: ''
+  description: ''
