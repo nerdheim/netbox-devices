@@ -1,0 +1,137 @@
+manufacturer: opnsense
+model: DEC677
+slug: dec677
+description: ''
+default_platform: null
+part_number: ''
+u_height: 1.0
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: 560.0
+weight_unit: g
+comments: "|                                                    | DEC677         \
+  \                                                            |\r\n| --------------------------------------------------\
+  \ | -------------------------------------------------------------------------- |\r\
+  \n| Hardware<br>Specifications                         |                       \
+  \                                                     |\r\n| Total Ports       \
+  \                                 | 4                                          \
+  \                                |\r\n| 1 GbE RJ45<br>\_Ports [ 100/1000Mbps ] \
+  \             | 0                                                              \
+  \            |\r\n| 2.5 GbE RJ45<br>Ports [ 100/1000/2500Mbps ]        | 4     \
+  \                                                                     |\r\n| 10G\
+  \ SFP+                                           | 0                           \
+  \                                               |\r\n| SFP28 Ports [25Gbps]    \
+  \                           | 0                                                \
+  \                          |\r\n| USB Ports                                    \
+  \      | 1                                                                     \
+  \     |\r\n| Console<br>Port                                    | 1            \
+  \                                                              |\r\n| Internal<br>\_\
+  Storage                               | 32GB Solid State Flash [integrated uSD]\
+  \                                    |\r\n| RAM                                \
+  \                | 4GB DDR3                                                    \
+  \               |\r\n| CPU<br>Cores                                       | 4 (max\
+  \ frequency 1.8Ghz)                                                   |\r\n| Virtual<br>Interfaces\
+  \ (802.1q VLANS)               | 4093                                          \
+  \                             |\r\n| System<br>\_Performance                   \
+  \          |                                                                   \
+  \         |\r\n| Firewall<br>\_Throughput                            | 5GBit/s \
+  \                                                                   |\r\n| Firewall<br>\_\
+  Packets Per Second                    | 420Kpps                                \
+  \                                    |\r\n| Firewall<br>\_Port to Port Throughput\
+  \               | 2.3Gbps                                                      \
+  \              |\r\n| Firewall<br>\_Port to Port Packets Per Second       | 195Kpps\
+  \                                                                    |\r\n| \_Concurrent<br>\_\
+  Sessions                           | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 3.000.000\
+  \    |\r\n| \_New Connections Per Second                        | \_\_\_\_\_\_\_\
+  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 35.000 |\r\n| Firewall<br>\_Latency (RTT)\
+  \                         | 125us                                              \
+  \                        |\r\n| \_Firewall<br>\_Policies (Recommended Maximum) \
+  \      | \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 10.000 |\r\n| IPsec\
+  \ VPN<br>\_Throughput (AES256GCM16)             | 600Mbps                      \
+  \                                              |\r\n| IPsec VPN<br>\_Packet Per\
+  \ Second (AES256GCM16)      | 50Kpps                                           \
+  \                          |\r\n| Threat<br>\_Protection Throughput Packet Per Second\
+  \ | N/A                                                                        |\r\
+  \n| Threat<br>\_Protection Throughput                   | N/A                  \
+  \                                                      |\r\n| High<br>Availability\
+  \ with State Synchronisation    | Requires Two                                 \
+  \                              |\r\n| Dimensions                               \
+  \          |                                                                   \
+  \         |\r\n| Height x<br>\_Width x Length (mm)                   | 22 x 185\
+  \ x 134                                                             |\r\n| Weight<br>(appliance\
+  \ only)                         | 0.56 Kg                                      \
+  \                              |\r\n| Weight (appliance + power supply / ac cord)\
+  \        | 0.86 Kg                                                             \
+  \       |\r\n| Environment                                        |            \
+  \                                                                |\r\n| Maximum<br>\_\
+  Current (AC) @230v                     | 0.4A                                  \
+  \                                     |\r\n| Power<br>\_Consumption (Typical)  \
+  \                  | 13W                                                       \
+  \                 |\r\n| Heat<br>\_Dissipation                               | 44\
+  \ BTU/hr                                                                  |\r\n\
+  | Operating<br>\_Temperature                          | 0 to +40\xB0C          \
+  \                                                       |\r\n| Storage<br>\_Temperature\
+  \                            | \\-20<br>to +70\xB0C                            \
+  \                               |\r\n| Humidity                                \
+  \           | 10-90%<br>non-condensing                                         \
+  \          |\r\n| Fan                                                | Fanless \
+  \                                                                   |\r\n| other\
+  \                                              |                               \
+  \                                             |"
+console-server-ports:
+- name: console
+  type: usb-mini-b
+  label: ''
+  description: ''
+power-ports:
+- name: DC-IN
+  type: dc-terminal
+  maximum_draw: 40
+  allocated_draw: 13
+  label: ''
+  description: ''
+interfaces:
+- name: eth0
+  type: 2.5gbase-t
+  enabled: true
+  mgmt_only: false
+  label: WAN
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth1
+  type: 2.5gbase-t
+  enabled: true
+  mgmt_only: false
+  label: LAN
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth2
+  type: 2.5gbase-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: eth3
+  type: 2.5gbase-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
