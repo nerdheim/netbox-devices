@@ -1,0 +1,141 @@
+manufacturer: opnsense
+model: DEC3852
+slug: dec3852
+description: ''
+default_platform: null
+part_number: ''
+u_height: 1.0
+is_full_depth: true
+subdevice_role: null
+airflow: front-to-rear
+weight: 3.45
+weight_unit: kg
+comments: "|                                                    | DEC3852        \
+  \                                  |\r\n| --------------------------------------------------\
+  \ | ------------------------------------------------ |\r\n| Hardware<br>Specifications\
+  \                         |                                                  |\r\
+  \n| Total Ports                                        | 6                     \
+  \                           |\r\n| 1 GbE RJ45<br>\_Ports [ 100/1000Mbps ]      \
+  \        | 0                                                |\r\n| 2.5 GbE RJ45<br>Ports\
+  \ [ 100/1000/2500Mbps ]        | 4                                             \
+  \   |\r\n| 10G SFP+                                           | 2              \
+  \                                  |\r\n| SFP28 Ports [25Gbps]                 \
+  \              | 0                                                |\r\n| USB Ports\
+  \                                          | 2                                 \
+  \               |\r\n| Console<br>Port                                    | 1  \
+  \                                              |\r\n| Internal<br>\_Storage    \
+  \                           | 256GB M.2. Solid State Flash                     |\r\
+  \n| RAM                                                | 16GB DDR4             \
+  \                           |\r\n| CPU<br>Cores                                \
+  \       | 8 (max frequency 3.1Ghz)                         |\r\n| Virtual<br>Interfaces\
+  \ (802.1q VLANS)               | 4093                                          \
+  \   |\r\n| System<br>\_Performance                             |               \
+  \                                   |\r\n| Firewall<br>\_Throughput            \
+  \                | 17.4Gpbs                                         |\r\n| Firewall<br>\_\
+  Packets Per Second                    | 1450Kpps                               \
+  \          |\r\n| Firewall<br>\_Port to Port Throughput               | 9Gpbs  \
+  \                                          |\r\n| Firewall<br>\_Port to Port Packets\
+  \ Per Second       | 1450Kpps                                         |\r\n| \_\
+  Concurrent<br>\_Sessions                           | \_ 15.000.000             \
+  \                        |\r\n| \_New Connections Per Second                   \
+  \     | \_\_\_\_\_\_\_\_\_\_\_ 50.000                               |\r\n| Firewall<br>\_\
+  Latency (RTT)                         | 100us                                  \
+  \          |\r\n| \_Firewall<br>\_Policies (Recommended Maximum)       | \_\_\_\_\
+  \_\_\_\_\_\_\_ 10.000                               |\r\n| IPsec VPN<br>\_Throughput\
+  \ (AES256GCM16)             | 2.5Gbps                                          |\r\
+  \n| IPsec VPN<br>\_Packet Per Second (AES256GCM16)      | 220Kpps              \
+  \                            |\r\n| Threat<br>\_Protection Throughput Packet Per\
+  \ Second | 163Kpps                                          |\r\n| Threat<br>\_\
+  Protection Throughput                   | ~2Gbps                               \
+  \            |\r\n| High<br>Availability with State Synchronisation    | Requires\
+  \ Two                                     |\r\n| Dimensions                    \
+  \                     |                                                  |\r\n|\
+  \ Height x<br>\_Width x Length (mm)                   | 43.65 (1U) x 482.6 (19\u2033\
+  ) x 282 (259 excl. panel) |\r\n| Weight<br>(appliance only)                    \
+  \     | 3.45Kg                                           |\r\n| Weight (appliance\
+  \ + power supply / ac cord)        |                                           \
+  \       |\r\n| Environment                                        |            \
+  \                                      |\r\n| Maximum<br>\_Current (AC) @230v  \
+  \                   | 2.2A                                             |\r\n| Power<br>\_\
+  Consumption (Typical)                    | 45W                                 \
+  \             |\r\n| Heat<br>\_Dissipation                               | 153.6\
+  \ BTU/hr                                     |\r\n| Operating<br>\_Temperature \
+  \                         | 0 to +50\xB0C                                      \
+  \ |\r\n| Storage<br>\_Temperature                            | \\-20 to +70\xB0\
+  C                                    |\r\n| Humidity                           \
+  \                | 10-90% non-condensing                            |\r\n| Fan \
+  \                                               |                              \
+  \                    |"
+console-server-ports:
+- name: console
+  type: usb-mini-b
+  label: ''
+  description: ''
+power-ports:
+- name: PSU
+  type: iec-60320-c14
+  maximum_draw: 220
+  allocated_draw: 45
+  label: ''
+  description: ''
+interfaces:
+- name: eth0
+  type: 2.5gbase-t
+  enabled: true
+  mgmt_only: false
+  label: WAN
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: eth1
+  type: 2.5gbase-t
+  enabled: true
+  mgmt_only: false
+  label: LAN
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: eth2
+  type: 2.5gbase-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: eth3
+  type: 2.5gbase-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: X0
+  type: 10gbase-x-sfpp
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: X1
+  type: 10gbase-x-sfpp
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
