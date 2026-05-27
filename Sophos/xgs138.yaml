@@ -1,0 +1,122 @@
+manufacturer: Sophos
+model: XGS138
+slug: xgs138
+description: ''
+default_platform: null
+part_number: ''
+u_height: 1.0
+is_full_depth: true
+subdevice_role: parent
+airflow: right-to-left
+weight: 2.4
+weight_unit: kg
+comments: ''
+console-ports:
+- name: COM
+  type: rj-45
+  label: ''
+  description: ''
+- name: COM-Front
+  type: usb-micro-b
+  label: ''
+  description: ''
+power-ports:
+- name: DC IN 1
+  type: dc-terminal
+  maximum_draw: 76
+  allocated_draw: 35
+  label: '12'
+  description: ''
+- name: DC IN 2
+  type: dc-terminal
+  maximum_draw: 76
+  allocated_draw: 35
+  label: '12'
+  description: ''
+interfaces:
+- name: F1
+  type: 10gbase-x-sfpp
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: F2
+  type: 10gbase-x-sfpp
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Port 1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Port 2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Port 3
+  type: 1000base-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Port 4
+  type: 1000base-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Port5/PoE1
+  type: 2.5gbase-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: POE
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Port6/PoE2
+  type: 2.5gbase-t
+  enabled: false
+  mgmt_only: false
+  label: ''
+  description: POE
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+module-bays:
+- name: Flex
+  label: ''
+  position: A
+  enabled: true
+  description: ''
